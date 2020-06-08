@@ -9,6 +9,10 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 class App extends Component {
   state = {
      bucketList : [
+       { id:uuid.v4(),
+        title: 'Megavalanche',
+        completed: false,
+      },
    { id:uuid.v4(),
      title: 'That fan parachuting shit',
      completed: false,
